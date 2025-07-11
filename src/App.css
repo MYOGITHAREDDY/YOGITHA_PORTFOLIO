@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Remove the previous styles related to bullet points */
+:root {
+  --brand: #38b2ac; /* Set --brand to the initial green color */
+}
+
+
+.bullet-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove any padding or margin */
+  }
+  
+  .bullet-item {
+    display: flex; /* Make the items flex containers */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+.bullet-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  fill: rgb(56,178,172); /* Change this to your desired color */
+  margin-right: 10px; /* Add spacing between the icon and text */
+}
+
+ .animation-container {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+  
+  .animation-container-S {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 110%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+  
+
+  .animation-container-p {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+  }
+
+  .animation-container-E {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 90%; /* Limit the width to 70% of the container (adjust as needed) */
+padding-left: 10%;
+padding-top: 20%;
+  }
+
+  .animation-container-PP {
+    flex: 10; /* Takes up the remaining horizontal space */
+    width: 80%; /* Limit the width to 70% of the container (adjust as needed) */
+
+  }
+
+  .animated-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+  }
+  
+  .animated-button.hovered {
+    background-color: #ff6b6b;
+    transform: scale(1.05);
+  }
+  .animation-container-E {
+    /* Vertically center the content */
+    flex: 10    ; /* Takes up the remaining horizontal space */
+    max-width: 100ch; /* Increase the height to make it taller */
+  
+  }
+
+      
+      .contact {
+        padding-left: 170px;
+      }
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card {
+          width: 100%; /* Make the cards full width on small screens */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card-text {
+          font-size: 14px; /* Adjust the font size for mobile screens */
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .project-card {
+          padding: 10px; /* Reduce padding on mobile screens */
+          margin: 10px; /* Reduce margins on mobile screens */
+        }
+      }
+      
+
+      /* CSS for mobile screens (max-width: 768px) */
+@media screen and (max-width: 653px) {
+  /* Select the element(s) you want to hide */
+  .animation-container-PP {
+    display: none; /* Hide the element */
+  }
+
+  .Pbox {
+    width: 900px;
+    padding-right: 65%;
+
+  /* Show the element */
+  }
+  .animation-container-S {
+    padding-right: 25%;
+  }
+
+  .animation-container-p {
+    padding-right: 42%;
+  }
+  .animation-container {
+    width: 300px;;
+  }
+  .skill-content{
+    padding-right: 20%;
+  }
+
+  .bullet-item {
+    width: 100px;
+    padding-right: 65%;
+  }
+
+/* Remove the default bullet point */
+.bullet-item {
+  list-style: none;
+}
+.contact {
+  padding-left: 22px;
+}
+/* Style the text */
+.icons {
+   /* Specify the FontAwesome font family */
+  font-weight: 90; /* Adjust font weight as needed */
+  font-size: 14px; /* Adjust icon size as needed */
+/* Adjust spacing as needed */
+}
+
+
+}
+
+/* CSS for larger screens (min-width: 769px) */
+@media screen and (max-width: 900px) {
+
+  .contact {
+    padding-left: 22px;
+  }
+
+  .row{
+    list-style: none;
+  }
+
+}
