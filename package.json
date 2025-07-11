@@ -1,5 +1,5 @@
 {
-  "homepage": "/Yogitha-s-portfolio",
+  "homepage": "https://MYOGITHAREDDY.github.io/Yogitha-s-portfolio",
   "name": "yogitha-s-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -53,6 +53,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0"
   }
 }
