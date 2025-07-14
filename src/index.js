@@ -15,7 +15,7 @@ root.render(
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       
       {/* Wrap App inside BrowserRouter with basename */}
-      <BrowserRouter basename="/YOGITHA_PORTFOLIO">
+      <BrowserRouter basename="/YOGITHA_PORTFOLIO/">
         <App />
       </BrowserRouter>
       

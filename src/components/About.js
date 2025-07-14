@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import animationData from "../assets/Animation - 1692970360651.json";
+import animationData from "../assets/Welcome";
 
 import { Divider, Text, Container, Grid, Flex } from "@chakra-ui/react";
 
