@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/YOGITHA_PORTFOLIO/static/css/main.be3345bd.css",
-    "main.js": "/YOGITHA_PORTFOLIO/static/js/main.a8b15de8.js",
+    "main.css": "/YOGITHA_PORTFOLIO/static/css/main.c8802a7f.css",
+    "main.js": "/YOGITHA_PORTFOLIO/static/js/main.10c83c18.js",
     "static/js/787.b6040589.chunk.js": "/YOGITHA_PORTFOLIO/static/js/787.b6040589.chunk.js",
     "static/media/verizon.png": "/YOGITHA_PORTFOLIO/static/media/verizon.be305a9c5c68356cd0da.png",
     "index.html": "/YOGITHA_PORTFOLIO/index.html",
-    "main.be3345bd.css.map": "/YOGITHA_PORTFOLIO/static/css/main.be3345bd.css.map",
-    "main.a8b15de8.js.map": "/YOGITHA_PORTFOLIO/static/js/main.a8b15de8.js.map",
+    "main.c8802a7f.css.map": "/YOGITHA_PORTFOLIO/static/css/main.c8802a7f.css.map",
+    "main.10c83c18.js.map": "/YOGITHA_PORTFOLIO/static/js/main.10c83c18.js.map",
     "787.b6040589.chunk.js.map": "/YOGITHA_PORTFOLIO/static/js/787.b6040589.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3345bd.css",
-    "static/js/main.a8b15de8.js"
+    "static/css/main.c8802a7f.css",
+    "static/js/main.10c83c18.js"
   ]
 }
