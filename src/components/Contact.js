@@ -1,7 +1,7 @@
 import { Container, Divider, Grid, Text, Box, HStack, Heading, Center, Stack } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 import Lottie from "lottie-react";
-import animationData from "../assets/ojyKm9l8OX.json"; // Use your own Lottie file here
+import animationData from "../assets/Email verification.json"; // Use your own Lottie file here
 import { Reveal } from "./Reveal.tsx";
 
 export default function Contact({ color }) {

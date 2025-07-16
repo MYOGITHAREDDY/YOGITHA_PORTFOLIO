@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { Fade } from "react-reveal";
 import { Carousel } from "react-responsive-carousel";
-import animationData from "../assets/animation_lm6z1slw.json";
+import animationData from "../assets/developer.json";
 import Lottie from "lottie-react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
