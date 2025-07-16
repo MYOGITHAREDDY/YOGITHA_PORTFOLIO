@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "lottie-react";
 import { Divider, Text, Container, Grid, Box, Flex } from "@chakra-ui/react";
-import animationData from "../assets/Animation - 1692742436044.json";
+import animationData from "../assets/Skills.json";
 import { Fade } from "react-reveal";
 
 const techSkills = [
