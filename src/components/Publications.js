@@ -9,7 +9,7 @@ import {
   Link,
 } from '@chakra-ui/react';
 import Lottie from 'lottie-react';
-import animationData from '../assets/animation_lm7xvn06.json'; // Replace with your animation file
+import animationData from '../assets/Certificate.json'; // Replace with your animation file
 import { Reveal } from "./Reveal.tsx";
 const Publications = () => {
   return (
