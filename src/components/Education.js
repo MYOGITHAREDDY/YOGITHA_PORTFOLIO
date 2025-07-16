@@ -7,7 +7,7 @@ import {
   Divider,
 } from '@chakra-ui/react';
 import Lottie from 'lottie-react';
-import animationData from '../assets/R6IO8MHpbe.json'; // Replace with your animation file path
+import animationData from '../assets/Education.json'; // Replace with your animation file path
 import { Reveal } from "./Reveal.tsx";
 
 const EducationPage = () => {
