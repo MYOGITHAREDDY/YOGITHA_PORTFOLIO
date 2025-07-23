@@ -7,6 +7,7 @@ import {
   CardBody,
   Grid,
   Heading,
+  Button,
 } from "@chakra-ui/react";
 import { Fade } from "react-reveal";
 import { Carousel } from "react-responsive-carousel";
@@ -41,48 +42,57 @@ export default function Projects({ color }) {
             <Fade bottom>
               <Card>
                 <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20} h={[null, "40vh"]}>
+                  <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">College Student Placement Analysis</Heading>
                     <Text fontSize="sm" py={2}>
                       Tools Used: Python (Pandas, Matplotlib, Seaborn), Power BI
                     </Text>
-                    <Text>          
+                    <Text fontSize="sm" py={2}>
                       • Cleaned and prepared 10,000+ student records using Python (Pandas) to remove nulls and standardize labels.
                       <br />
                       • Performed Exploratory Data Analysis (EDA) with Seaborn and Matplotlib to examine the impact of CGPA, internships, project count, and communication skills on placement outcomes.
                       <br />
                       • Built a Power BI dashboard with interactive slicers and charts to visualize:
-                      <ul style={{ paddingLeft: "20px" }}>
-                        <li>Placement distribution</li>
-                        <li>CGPA comparison by placement status</li>
-                        <li>Internship effect on placement</li>
-                        <li>Project count vs. placement success</li>
-                        <li>Communication skills and placement trends</li>
-                      </ul>
+                    </Text>
+                    <ul style={{ paddingLeft: "20px" }}>
+                      <li>Placement distribution</li>
+                      <li>CGPA comparison by placement status</li>
+                      <li>Internship effect on placement</li>
+                      <li>Project count vs. placement success</li>
+                      <li>Communication skills and placement trends</li>
+                    </ul>
+                    <Text fontSize="sm" py={2}>
                       • Implemented transformation logic in Power BI to handle unknown values and ensure accurate analysis.
                       <br />
                       • Published all code, cleaned dataset, and Power BI dashboard to GitHub.
                     </Text>
-                    <Text mt={2}>
-                      🔗 <a href="https://github.com/MYOGITHAREDDY/college-student-placement-analysis" target="_blank" rel="noopener noreferrer">View GitHub Repo</a>
-                    </Text>
+                    <Button
+                      as="a"
+                      href="https://github.com/MYOGITHAREDDY/college-student-placement-analysis"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View GitHub Repo
+                    </Button>
                   </CardBody>
                 </Stack>
               </Card>
             </Fade>
+
             {/* Smart Expense Tracker */}
             <Fade bottom>
               <Card>
                 <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20} h={[null, "40vh"]}>
+                  <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">Smart Expense Tracker</Heading>
                     <Text fontSize="sm" py={2}>
-                      Smart Expense Tracker is a fully functional web application designed to help users manage their daily expenses with real-time insights and secure data handling.
-                      Built entirely using AWS cloud services, the system features user authentication through AWS Cognito, serverless business logic via Lambda functions, and expense storage using DynamoDB. Users can add, view, and delete expenses, and explore spending trends through interactive charts powered by Chart.js.
-                      The application offers a modern and responsive UI, works seamlessly across devices, and demonstrates strong cloud architecture, secure backend integration, and intuitive user experience. 
+                      A web app to manage daily expenses with real-time visual insights. Built with AWS services including Cognito, Lambda, and DynamoDB. Supports authentication, data visualization using Chart.js, and works across devices.
                     </Text>
-                    <Text>
-                      Future plans include integrating Google/Facebook login, adding report downloads, and allowing users to manage profile settings.
+                    <Text fontSize="sm">
+                      Future plans include report downloads, OAuth login, and profile settings.
                     </Text>
                   </CardBody>
                 </Stack>
@@ -93,12 +103,10 @@ export default function Projects({ color }) {
             <Fade bottom>
               <Card>
                 <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20} h={[null, "40vh"]}>
+                  <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">AWS Serverless Contact Form</Heading>
                     <Text fontSize="sm" py={2}>
-                      Created a real-time reporting API using Python (Lambda), API Gateway, and DynamoDB
-                      with IAM-based access control. Scaled to 10,000+ daily requests with latency under
-                      200 ms—demonstrating production-grade performance.
+                      Real-time contact form using AWS Lambda, API Gateway, and DynamoDB. Scalable and secure, capable of handling 10K+ daily requests with low latency.
                     </Text>
                   </CardBody>
                 </Stack>
@@ -109,13 +117,10 @@ export default function Projects({ color }) {
             <Fade bottom>
               <Card>
                 <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20} h={[null, "40vh"]}>
+                  <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">Restaurant Management System</Heading>
                     <Text fontSize="sm" py={2}>
-                      The Restaurant Management System is a comprehensive web-based application designed to streamline online and in-person food ordering for restaurants. Built using Flask (Python) and MySQL, the system supports both customer and admin roles with secure authentication. Customers can browse a visually dynamic menu, add items to their cart, choose a payment method (card or cash), and complete orders with OTP verification. The admin dashboard allows real-time order tracking, menu management, and filtering of sales by date ranges (daily, monthly, yearly).
-                    </Text>
-                    <Text>
-                      Additionally, QR code-based login makes it mobile-friendly for dine-in customers, simplifying access to menu and ordering. The system is fully responsive and can be tested across devices via a secure Ngrok tunnel.
+                      Built with Flask and MySQL, this system supports QR-based login for dine-in customers, real-time order processing, admin-side menu management, and secure payments via OTP.
                     </Text>
                   </CardBody>
                 </Stack>
