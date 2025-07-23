@@ -37,6 +37,47 @@ export default function Projects({ color }) {
         {/* Project Carousel */}
         <Stack flex="1" px={4} spacing={4} align="center" justifyContent="center">
           <Carousel className="Pbox" showThumbs={false} showStatus={false}>
+            {/* College Student Placement Analysis */}
+            <Fade bottom>
+              <Card>
+                <Stack>
+                  <CardBody align="left" px={10} py={6} mb={20} h={[null, "40vh"]}>
+                    <Heading size="sm">College Student Placement Analysis</Heading>
+                    <Text fontSize="sm" py={2}>
+                      Tools Used: Python (Pandas, Matplotlib, Seaborn), Power BI
+                    </Text>
+                    <Text>
+                      Summary:
+                      This project explores the factors influencing student placement outcomes based on academic and behavioral data from a college dataset. Using Python for data cleaning and exploratory analysis, and Power BI for dynamic dashboard visualization, I identified meaningful patterns that could support career readiness programs and academic advising.
+                    </Text>
+                    <Text>
+                      Cleaned and prepared raw placement data (~10,000 records) using Python and Pandas.
+
+                      Conducted EDA with Seaborn/Matplotlib to uncover relationships between CGPA, internships, projects, communication skills, and placement results.
+
+                      Created a Power BI dashboard with interactive charts and slicers to visualize:
+
+                      Placement distribution
+
+                      CGPA comparison by placement status
+
+                      Internship impact on placement
+
+                      Projects completed vs placement outcome
+
+                      Communication skill trends
+
+                      Implemented data transformation logic and filters to ensure accurate insights.
+
+                      Published the project and dashboard to GitHub for easy collaboration and visibility.
+                    </Text>
+                    <Text>
+                      GitHub Repo: College Student Placement Analysis
+                    </Text>
+                  </CardBody>
+                </Stack>
+              </Card>
+            </Fade>
             {/* Smart Expense Tracker */}
             <Fade bottom>
               <Card>
