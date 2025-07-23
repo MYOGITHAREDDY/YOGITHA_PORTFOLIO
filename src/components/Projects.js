@@ -46,33 +46,25 @@ export default function Projects({ color }) {
                     <Text fontSize="sm" py={2}>
                       Tools Used: Python (Pandas, Matplotlib, Seaborn), Power BI
                     </Text>
-                    <Text>
-                      Summary:
-                      This project explores the factors influencing student placement outcomes based on academic and behavioral data from a college dataset. Using Python for data cleaning and exploratory analysis, and Power BI for dynamic dashboard visualization, I identified meaningful patterns that could support career readiness programs and academic advising.
+                    <Text>          
+                      • Cleaned and prepared 10,000+ student records using Python (Pandas) to remove nulls and standardize labels.
+                      <br />
+                      • Performed Exploratory Data Analysis (EDA) with Seaborn and Matplotlib to examine the impact of CGPA, internships, project count, and communication skills on placement outcomes.
+                      <br />
+                      • Built a Power BI dashboard with interactive slicers and charts to visualize:
+                      <ul style={{ paddingLeft: "20px" }}>
+                        <li>Placement distribution</li>
+                        <li>CGPA comparison by placement status</li>
+                        <li>Internship effect on placement</li>
+                        <li>Project count vs. placement success</li>
+                        <li>Communication skills and placement trends</li>
+                      </ul>
+                      • Implemented transformation logic in Power BI to handle unknown values and ensure accurate analysis.
+                      <br />
+                      • Published all code, cleaned dataset, and Power BI dashboard to GitHub.
                     </Text>
-                    <Text>
-                      Cleaned and prepared raw placement data (~10,000 records) using Python and Pandas.
-
-                      Conducted EDA with Seaborn/Matplotlib to uncover relationships between CGPA, internships, projects, communication skills, and placement results.
-
-                      Created a Power BI dashboard with interactive charts and slicers to visualize:
-
-                      Placement distribution
-
-                      CGPA comparison by placement status
-
-                      Internship impact on placement
-
-                      Projects completed vs placement outcome
-
-                      Communication skill trends
-
-                      Implemented data transformation logic and filters to ensure accurate insights.
-
-                      Published the project and dashboard to GitHub for easy collaboration and visibility.
-                    </Text>
-                    <Text>
-                      GitHub Repo: College Student Placement Analysis
+                    <Text mt={2}>
+                      🔗 <a href="https://github.com/MYOGITHAREDDY/college-student-placement-analysis" target="_blank" rel="noopener noreferrer">View GitHub Repo</a>
                     </Text>
                   </CardBody>
                 </Stack>
