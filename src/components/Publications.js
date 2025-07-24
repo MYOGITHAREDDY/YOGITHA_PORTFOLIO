@@ -26,7 +26,7 @@ export default function Projects({ color }) {
         {/* Intro + Animation */}
         <div>
           <Text fontWeight={800} fontSize="2xl" mb={4}>
-            Projects
+            Certifications
           </Text>
           <Divider orientation="horizontal" />
           <Lottie
@@ -38,18 +38,17 @@ export default function Projects({ color }) {
         {/* Certificates Carousel */}
         <Stack flex="1" px={4} spacing={4} align="center" justifyContent="center">
           <Carousel className="Pbox" showThumbs={false} showStatus={false}>
-            {/* College Student Placement Analysis */}
             <Fade bottom>
               <Card>
                 <Stack>
                   <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">Amazon Web Service (AWS)-UDEMY</Heading>
                     <Text fontSize="sm" py={2}>
-                      Tools Used: Python (Pandas, Matplotlib, Seaborn), Power BI
+                      Completed foundational training on AWS Cloud services, including Lambda, EC2, S3, and IAM with hands-on practice.
                     </Text>
                     <Button
                       as="a"
-                      href="https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-hero-goto"
+                      href="https://drive.google.com/file/d/1D2lr4ZnqXF9s6VhE3ZpD6JPjc3nV3g4i/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                       colorScheme="teal"
@@ -62,6 +61,32 @@ export default function Projects({ color }) {
                 </Stack>
               </Card>
             </Fade>
+
+            {/* Smart Expense Tracker */}
+            <Fade bottom>
+              <Card>
+                <Stack>
+                  <CardBody align="left" px={10} py={6} mb={20}>
+                    <Heading size="sm">PYTHON </Heading>
+                    <Text fontSize="sm" py={2}>
+                      Demonstrated proficiency in Python programming, including data structures, control flow, and algorithmic problem-solving.
+                    </Text>
+                    <Button
+                      as="a"
+                      href="https://drive.google.com/file/d/1W2fgVs4BwJcon6KiOrW17s5_IOEw0vIG/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View Certificate
+                    </Button>
+                  </CardBody>
+                </Stack>
+              </Card>
+            </Fade>
+
           </Carousel>
         </Stack>
       </Grid>
