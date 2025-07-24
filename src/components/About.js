@@ -21,7 +21,7 @@ export default function About({ color }) {
           </Text>
           <Divider orientation="horizontal" />
           <Text mb={4} color="gray.500" fontSize="xl" px={2}>
-            Full-Stack Developer | AWS Cloud Enthusiast | Software Engineer
+            Data Analyst | Full Stack Developer | AWS Cloud Enthusiast 
           </Text>
           <Lottie animationData={animationData} className="animation-container" />
         </div>

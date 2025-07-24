@@ -5,7 +5,7 @@ const ProjectsPage = () => {
     <Container maxW={'8xl'} id="projects">
       <Box textAlign="center" mb={100}>
         <Text fontWeight={800} fontSize="2xl" mb={4}>
-          Other Projects
+          For Projects
         </Text>
         <Text fontSize="lg" mb={4}>
           Feel free to visit my GitHub profile to get a firsthand look at my projects. You can see the extent of my coding skills and experience in action, showcasing my creativity.
