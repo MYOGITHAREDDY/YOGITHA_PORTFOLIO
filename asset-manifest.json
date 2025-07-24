@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/YOGITHA_PORTFOLIO/static/css/main.c8802a7f.css",
-    "main.js": "/YOGITHA_PORTFOLIO/static/js/main.ed71ad95.js",
+    "main.js": "/YOGITHA_PORTFOLIO/static/js/main.d0b4c610.js",
     "static/js/787.b6040589.chunk.js": "/YOGITHA_PORTFOLIO/static/js/787.b6040589.chunk.js",
     "static/media/verizon.png": "/YOGITHA_PORTFOLIO/static/media/verizon.be305a9c5c68356cd0da.png",
     "index.html": "/YOGITHA_PORTFOLIO/index.html",
     "main.c8802a7f.css.map": "/YOGITHA_PORTFOLIO/static/css/main.c8802a7f.css.map",
-    "main.ed71ad95.js.map": "/YOGITHA_PORTFOLIO/static/js/main.ed71ad95.js.map",
+    "main.d0b4c610.js.map": "/YOGITHA_PORTFOLIO/static/js/main.d0b4c610.js.map",
     "787.b6040589.chunk.js.map": "/YOGITHA_PORTFOLIO/static/js/787.b6040589.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8802a7f.css",
-    "static/js/main.ed71ad95.js"
+    "static/js/main.d0b4c610.js"
   ]
 }
