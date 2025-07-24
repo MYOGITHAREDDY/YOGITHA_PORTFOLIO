@@ -90,22 +90,23 @@ export default function Projects({ color }) {
                     <Heading size="sm">Smart Expense Tracker</Heading>
                     <Text fontSize="sm" py={2}>
                       Tools: AWS (Cognito, Lambda, API Gateway, DynamoDB), HTML/CSS/JavaScript, Chart.js
-
+                      <br/>
                         • Built a cloud-based web application to help users track daily expenses securely and in real-time.
-
+                        <br/>
                         • Implemented user authentication using AWS Cognito and secured APIs using IAM and API Gateway.
-
+                        <br/>
                         • Developed backend logic with AWS Lambda for adding, fetching, and deleting expenses, with data stored in DynamoDB.
-
+                        <br/>
                         • Designed interactive frontend dashboards using HTML/CSS/JS and Chart.js for visual insights.
-
+                        <br/>
                         • Ensured only authenticated users could access or modify their data, with session-based authorization.
-
+                        <br/>
                         • Handled error management for login failures, invalid form data, and API issues.
-
+                        <br/>
                         • Tested complete user workflows: signup, confirmation, login, add/view/delete expenses.
-
+                        <br/>
                         • Focused on scalability, security, and user experience, following best practices for serverless design.
+                        <br/>
                     </Text>
                     <Text fontSize="sm">
                       Future plans include report downloads, OAuth login, and profile settings.
@@ -134,23 +135,23 @@ export default function Projects({ color }) {
                     <Heading size="sm">Restaurant Management System</Heading>
                     <Text fontSize="sm" py={2}>
                       Tools: Flask (Python), MySQL, HTML/CSS, Jinja2, QRCode, Ngrok
-
+                      <br/>
                       • Developed a full-stack web application to streamline restaurant operations for both customers and administrators.
-
+                      <br/>
                       • Implemented role-based login using Flask sessions, allowing separate views and functionality for customers and admins.
-
+                      <br/>
                       • Designed a dynamic menu system with item images, prices, and cart integration using HTML/CSS and Jinja2 templates.
-
+                      <br/>
                       • Built customer workflows to view the menu, add items to the cart, select payment method (card, cash, tap-to-pay), and confirm orders with OTP.
-
+                      <br/>
                       • Integrated QR code support for table-based ordering, with a unified code directing all users to the login page and capturing their table number.
-
+                      <br/>
                       • Created an admin panel with options to add/edit/delete menu items and view sales summaries.
-
+                      <br/>
                       • Enabled admin analytics using daily, monthly, yearly, and custom date-range filters for sales tracking.
-
+                      <br/>
                       • Used Ngrok for generating a public URL to test the application across devices via QR scanning.
-
+                      <br/>
                       • Focused on usability, responsive design, and modular architecture to support future scalability and deployments
                     </Text>
                     <Button
@@ -169,19 +170,6 @@ export default function Projects({ color }) {
               </Card>
             </Fade>
 
-            {/* AWS Serverless Contact Form */}
-            <Fade bottom>
-              <Card>
-                <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20}>
-                    <Heading size="sm">AWS Serverless Contact Form</Heading>
-                    <Text fontSize="sm" py={2}>
-                      Real-time contact form using AWS Lambda, API Gateway, and DynamoDB. Scalable and secure, capable of handling 10K+ daily requests with low latency.
-                    </Text>
-                  </CardBody>
-                </Stack>
-              </Card>
-            </Fade>
           </Carousel>
         </Stack>
       </Grid>
