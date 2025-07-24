@@ -62,7 +62,6 @@ export default function Projects({ color }) {
               </Card>
             </Fade>
 
-            {/* Smart Expense Tracker */}
             <Fade bottom>
               <Card>
                 <Stack>
@@ -74,6 +73,54 @@ export default function Projects({ color }) {
                     <Button
                       as="a"
                       href="https://drive.google.com/file/d/1W2fgVs4BwJcon6KiOrW17s5_IOEw0vIG/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View Certificate
+                    </Button>
+                  </CardBody>
+                </Stack>
+              </Card>
+            </Fade>
+
+            <Fade bottom>
+              <Card>
+                <Stack>
+                  <CardBody align="left" px={10} py={6} mb={20}>
+                    <Heading size="sm">DBMS </Heading>
+                    <Text fontSize="sm" py={2}>
+                      Covered relational database concepts including ER modeling, normalization, indexing, and writing optimized SQL queries.
+                    </Text>
+                    <Button
+                      as="a"
+                      href="https://drive.google.com/file/d/1Vf3tqa1VWGdWKJ2288U-ztIMXwrWAXD_/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View Certificate
+                    </Button>
+                  </CardBody>
+                </Stack>
+              </Card>
+            </Fade>
+
+            <Fade bottom>
+              <Card>
+                <Stack>
+                  <CardBody align="left" px={10} py={6} mb={20}>
+                    <Heading size="sm">HTML </Heading>
+                    <Text fontSize="sm" py={2}>
+                      Gained practical knowledge of HTML structure, semantic tags, and responsive page layouts for modern web development.
+                    </Text>
+                    <Button
+                      as="a"
+                      href="https://drive.google.com/file/d/1zDvgvMmCsU59JhFjUoNfr6Yz6QiyEhNr/view?usp=drive_link"
                       target="_blank"
                       rel="noopener noreferrer"
                       colorScheme="teal"
