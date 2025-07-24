@@ -74,7 +74,7 @@ export default function Experience({ color }) {
                         />
                         <Box px={2} align="left">
                           <Text fontWeight={600}>Cognizant</Text>
-                          <Text>Programmer Analyst Trainee (.NET Developer) | Dec'23 - Apr'24</Text>
+                          <Text>Programmer Analyst Trainee| Dec'23 - Apr'24</Text>
                         </Box>
                       </HStack>
                     </Reveal>
@@ -84,15 +84,21 @@ export default function Experience({ color }) {
                   <Flex>
                     <List align="left" spacing={3}>
                       {[
-                        "Developed and supported investment-related client/server applications using ASP.NET Core, SQL Server, and React.",
-                        "Delivered reporting enhancements and modules for compliance, accounting, and operational data.",
-                        "Partnered with accounting and compliance teams to deliver fixed income reporting systems aligned with investment guidelines.",
-                        "Managed production support by investigating call lists, debugging logs, and ensuring system integrity.",
-                        "Familiar with fixed income, attribution, compliance, and investment data terminology.",
-                        "Designed and tested backend systems to support fixed income and attribution reporting tools.",
-                        "Collaborated with stakeholders from operations and business teams to gather requirements and implement system improvements.",
-                        "Wrote unit and integration tests using xUnit and contributed to CI pipelines (GitHub Actions).",
-                        "Participated in Agile ceremonies including sprint planning, retrospectives, backlog grooming, and demos.",
+                        "As a Programmer Analyst Trainee, I was part of a development team working on internal tools used for investment reporting and compliance tracking. During this time, I got hands-on experience working with real enterprise systems and teams.",
+
+                        "Contributed to backend enhancements for web applications built with ASP.NET Core and SQL Server, supporting financial reporting use cases.",
+
+                        "Wrote and modified basic SQL queries to help generate reports and validate data for operational and compliance teams.",
+
+                        "Collaborated with team members to build simple visual reports using Power BI, highlighting key metrics for internal users.",
+
+                        "Used Python (Pandas) in a few tasks to clean datasets and support data validation scripts used by senior developers.",
+
+                        "Participated in Agile sprints, code walkthroughs, and team meetings, which gave me exposure to real-world software development processes.",
+
+                        "Assisted in basic production support activities like reviewing logs, replicating issues in dev environments, and testing fixes before deployment.",
+
+                        "Gained foundational understanding of CI/CD using GitHub Actions and how cloud services like AWS Lambda and Cognito are integrated into modern applications.",
                       ].map((item, index) => (
                         <Reveal key={index}>
                           <ListItem>

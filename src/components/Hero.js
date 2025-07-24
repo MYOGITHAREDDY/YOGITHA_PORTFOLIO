@@ -45,10 +45,9 @@ export default function Header({ color }) {
             color={"gray.500"}
             fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
           >
-            I'm a passionate Software Engineer with experience in .NET, Python, and AWS.
-            I enjoy building scalable cloud applications, solving real-world challenges,
-            and working with cross-functional teams. I'm currently pursuing my Master's
-            in Computer Science and have a strong interest in backend, cloud, and data engineering.
+            I'm a passionate engineer with experience in Python, SQL,Power BI, AWS and .NET. 
+            I enjoy working with data, building backend systems, and deploying scalable cloud applications. 
+            Currently pursuing my Master's in Computer Science, I’m focused on roles in data analytics, software development, and cloud engineering.
           </Text>
 
           <Stack

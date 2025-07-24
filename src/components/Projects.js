@@ -89,11 +89,81 @@ export default function Projects({ color }) {
                   <CardBody align="left" px={10} py={6} mb={20}>
                     <Heading size="sm">Smart Expense Tracker</Heading>
                     <Text fontSize="sm" py={2}>
-                      A web app to manage daily expenses with real-time visual insights. Built with AWS services including Cognito, Lambda, and DynamoDB. Supports authentication, data visualization using Chart.js, and works across devices.
+                      Tools: AWS (Cognito, Lambda, API Gateway, DynamoDB), HTML/CSS/JavaScript, Chart.js
+
+                        • Built a cloud-based web application to help users track daily expenses securely and in real-time.
+
+                        • Implemented user authentication using AWS Cognito and secured APIs using IAM and API Gateway.
+
+                        • Developed backend logic with AWS Lambda for adding, fetching, and deleting expenses, with data stored in DynamoDB.
+
+                        • Designed interactive frontend dashboards using HTML/CSS/JS and Chart.js for visual insights.
+
+                        • Ensured only authenticated users could access or modify their data, with session-based authorization.
+
+                        • Handled error management for login failures, invalid form data, and API issues.
+
+                        • Tested complete user workflows: signup, confirmation, login, add/view/delete expenses.
+
+                        • Focused on scalability, security, and user experience, following best practices for serverless design.
                     </Text>
                     <Text fontSize="sm">
                       Future plans include report downloads, OAuth login, and profile settings.
                     </Text>
+                    <Button
+                      as="a"
+                      href="https://github.com/MYOGITHAREDDY/SmartExpenseTracker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View GitHub Repo
+                    </Button>
+                  </CardBody>
+                </Stack>
+              </Card>
+            </Fade>
+
+            {/* Restaurant Management System */}
+            <Fade bottom>
+              <Card>
+                <Stack>
+                  <CardBody align="left" px={10} py={6} mb={20}>
+                    <Heading size="sm">Restaurant Management System</Heading>
+                    <Text fontSize="sm" py={2}>
+                      Tools: Flask (Python), MySQL, HTML/CSS, Jinja2, QRCode, Ngrok
+
+                      • Developed a full-stack web application to streamline restaurant operations for both customers and administrators.
+
+                      • Implemented role-based login using Flask sessions, allowing separate views and functionality for customers and admins.
+
+                      • Designed a dynamic menu system with item images, prices, and cart integration using HTML/CSS and Jinja2 templates.
+
+                      • Built customer workflows to view the menu, add items to the cart, select payment method (card, cash, tap-to-pay), and confirm orders with OTP.
+
+                      • Integrated QR code support for table-based ordering, with a unified code directing all users to the login page and capturing their table number.
+
+                      • Created an admin panel with options to add/edit/delete menu items and view sales summaries.
+
+                      • Enabled admin analytics using daily, monthly, yearly, and custom date-range filters for sales tracking.
+
+                      • Used Ngrok for generating a public URL to test the application across devices via QR scanning.
+
+                      • Focused on usability, responsive design, and modular architecture to support future scalability and deployments
+                    </Text>
+                    <Button
+                      as="a"
+                      href="https://github.com/MYOGITHAREDDY/Restaurant_Management"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      colorScheme="teal"
+                      size="sm"
+                      mt={3}
+                    >
+                      View GitHub Repo
+                    </Button>
                   </CardBody>
                 </Stack>
               </Card>
@@ -107,20 +177,6 @@ export default function Projects({ color }) {
                     <Heading size="sm">AWS Serverless Contact Form</Heading>
                     <Text fontSize="sm" py={2}>
                       Real-time contact form using AWS Lambda, API Gateway, and DynamoDB. Scalable and secure, capable of handling 10K+ daily requests with low latency.
-                    </Text>
-                  </CardBody>
-                </Stack>
-              </Card>
-            </Fade>
-
-            {/* Restaurant Management System */}
-            <Fade bottom>
-              <Card>
-                <Stack>
-                  <CardBody align="left" px={10} py={6} mb={20}>
-                    <Heading size="sm">Restaurant Management System</Heading>
-                    <Text fontSize="sm" py={2}>
-                      Built with Flask and MySQL, this system supports QR-based login for dine-in customers, real-time order processing, admin-side menu management, and secure payments via OTP.
                     </Text>
                   </CardBody>
                 </Stack>

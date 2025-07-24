@@ -5,13 +5,22 @@ import animationData from "../assets/Skills.json";
 import { Fade } from "react-reveal";
 
 const techSkills = [
-  "Java", "Python", "JavaScript", "HTML", "CSS", "PHP", "SQL", "C#",
-  "React", "Node.js", "Spring Boot", "Flask", ".NET", "Bootstrap", "Tailwind", "jQuery",
-  "MySQL", "MongoDB", "Oracle",
-  "AWS (Lambda, S3, SNS, Cognito)", "Jenkins", "Git", "CI/CD", "REST APIs",
-  "Postman", "Tableau", "JIRA", "Bugzilla", "Power BI", "Tomcat",
-  "OOP", "Microservices", "DBMS", "Networking", "Agile", "UI/UX"
+  // Core Programming
+  "Python", "Java", "C#", "JavaScript", "SQL", "HTML", "CSS",
+
+  // Frameworks & Libraries
+  "Flask", "Spring Boot", ".NET", "React", "Node.js", "Bootstrap", "jQuery",
+
+  // Databases & Data Tools
+  "MySQL", "PostgreSQL", "MongoDB", "Oracle", "DBMS", "Power BI", "Tableau",
+
+  // Cloud & DevOps
+  "AWS", "Git", "CI/CD", "REST APIs",
+
+  // Concepts & Methodologies
+  "OOP", "Microservices", "Networking", "Agile", "UI/UX"
 ];
+
 
 const softSkills = [
   {

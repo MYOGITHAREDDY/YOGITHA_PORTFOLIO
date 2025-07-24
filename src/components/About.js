@@ -30,36 +30,39 @@ export default function About({ color }) {
         <div>
           <Flex direction="column">
             {[
+              [
               {
-                title: "Computer Science graduate student with hands-on experience building scalable software using .NET, Python, React, and SQL."
+                title: "Computer Science graduate student with strong experience in data analysis, backend development, and cloud engineering."
               },
               {
-                title: "Developed and supported investment and compliance applications in enterprise environments using ASP.NET Core and SQL Server."
+                title: "Skilled in extracting insights using SQL, Python, and Power BI — with experience building interactive dashboards."
               },
               {
-                title: "Skilled in developing full-stack web apps with Flask, Django, React, and integrating AWS services like Lambda, Cognito, S3, and DynamoDB."
+                title: "Developed data-driven reporting tools and compliance systems using ASP.NET Core, SQL Server, and enterprise-grade APIs."
               },
               {
-                title: "Built smart financial tracking apps with AWS serverless architecture for secure, real-time expense monitoring."
+                title: "Hands-on experience with AWS services like Lambda, RDS, S3, and Cognito for deploying secure, scalable data pipelines and backend systems."
               },
               {
-                title: "Strong knowledge of Agile methodologies, unit testing, GitHub Actions CI/CD, and production support debugging techniques."
+                title: "Built and deployed serverless applications for financial tracking using real-time data and cloud-native technologies."
               },
               {
-                title: "Experience collaborating with cross-functional teams including compliance, accounting, and operations to build secure reporting systems."
+                title: "Strong foundation in data modeling, querying, and performance optimization using PostgreSQL, MySQL, and DynamoDB."
               },
               {
-                title: "Proficient in SQL, PostgreSQL, and MySQL with strong analytical skills in data modeling, querying, and optimization."
+                title: "Experience collaborating with cross-functional teams to design data workflows, reporting dashboards, and analytics-ready datasets."
               },
               {
-                title: "AWS Certified Cloud Practitioner with working knowledge of IAM, API Gateway, RDS, and Lambda-based microservices."
+                title: "Proficient in building full-stack applications with Flask, Django, React, and integrating data from cloud sources."
               },
               {
-                title: "Designed secure role-based applications with session authentication, admin dashboards, and real-time data flows."
+                title: "AWS Certified Cloud Practitioner with working knowledge of IAM, API Gateway, Lambda microservices, and cloud security principles."
               },
               {
-                title: "Open to relocation and available for full-time roles starting August 2025 (CPT eligible)."
+                title: "Able to start quick career from August 2025 (CPT eligible) | Open to relocation | Targeting data, software, and cloud roles."
               }
+            ]
+
             ].map((item, index) => (
               <Reveal key={index}>
                 <div style={{ display: "flex", alignItems: "center", marginBottom: "1rem" }}>
